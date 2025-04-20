@@ -1,0 +1,12 @@
+{
+  "network": {
+    "model_path": "kws_model.onnx",
+    "input_tensors": [
+      {
+        "name": "input",
+        "shape": [1, 49, 10, 1],
+        "dtype": "float32"
+      }
+    ]
+  }
+}
